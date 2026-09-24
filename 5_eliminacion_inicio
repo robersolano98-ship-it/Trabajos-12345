@@ -1,8 +1,2 @@
-#include <vector>
-#include <iostream>
-using namespace std;
-int main() {
-    vector<int> arr = {10, 20, 30, 40};
-    arr.erase(arr.begin());
-    for(int x: arr) cout << x << " ";
-}
+let arr = [10,20,30,40];
+arr.shift();
